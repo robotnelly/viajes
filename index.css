@@ -1,0 +1,60 @@
+/* 
+    1. Etiquetas
+*/
+
+body{
+    background: black;
+    font-family: Verdana;
+}
+
+h1, h2, p{
+        color: #ffffff;
+}
+
+header{
+    background: white;
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+header h1{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav{
+    color: #ffffff;
+}
+
+figcaption{
+    color: white;
+    image-orientation: center;
+    text-align: center;
+}
+
+/*
+    2. Ids  - cada id debe de ser único
+*/
+
+/*Indicar a que etiqueta pertenece*/
+section#fotosdecanes{
+    /*display: none;*/
+    background: green; 
+}
+
+section#fotosdecanes1{
+    /*display: none;*/
+    background: magenta;
+}
+
+/* 3. Clase - class*/
+
+
+.fotos{
+    border: 5px solid white;
+}
+
